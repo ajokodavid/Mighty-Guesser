@@ -6,6 +6,7 @@ let userInput2 = document.getElementById("result");
 let computer_score = document.querySelector("#computerscore");
 let user_score = document.querySelector("#userscore");
 let userChances = document.getElementById("user_chances");
+let arrow = document.querySelector("#clicker");
 
 function playGame() {
   let computerGuess = Math.floor(Math.random() * 10);
@@ -29,4 +30,4 @@ function playGame() {
   }
 }
 
-userInput.addEventListener("keypress", playGame);
+arrow.addEventListener("click", playGame);

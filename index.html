@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple and clean math exponential site" />
+    <meta name="author" content="Aj David" />
+    <meta name="keyword" content="bootstrap, math, exponential, calculator" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/js/bootstrap.min.js">
+    <title>Guess Game</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+                <div class="card mt-5">
+                    <div class="card-body bg-success">
+                        <h3 class="text-center text-dark"><span>C:<output id="computerscore" class="mx-4">0</output></span><b></b><span>U:<output id="userscore" class="ms-4">0</output></span><span class="ms-4">CH:<output id="user_chances" class="ms-2">0</output></span></h3>
+                        <input type="text" class="form-control mt-3" placeholder="Enter a number from 1 - 9" id="inputer">
+                        <div class="text-center text-warning mt-3 display-5"><i class="far fa-arrow-alt-circle-down"></i></div>
+                        <b><p id="result" class="text-center mt-3 display-5 text-info bg-dark"></p></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
